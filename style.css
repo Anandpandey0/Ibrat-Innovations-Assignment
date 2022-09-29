@@ -56,12 +56,14 @@ body{
 }
 }
 
-.navbar-links>a{
+
+.login{
     margin-left: 1rem;
+    display: inline;
     margin-right: 1rem;
     
 }
-a>img{
+.navbar-links>img{
     height: 1.5rem;
     width: 1.5rem;
 }
@@ -71,8 +73,8 @@ a{
     
 }
 .logo{
-    height: 2rem ;
-    width: 2rem;
+    height: 5rem !important;
+    width: 5rem !important;
     margin-left: 2rem;
 }
 .login-link{
@@ -112,3 +114,25 @@ img{
     border-radius: inherit;
 }
 
+.navbar-links{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar-links>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 2rem;
+
+}
+
+.navbar-link>img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.navbar-container>img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
